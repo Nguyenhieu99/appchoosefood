@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="ĐĂNG KÍ THÔNG TIN"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:hint="Tên đăng nhâp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/edittextuser2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:hint="Mật khẩu"
+        android:id="@+id/edittextpassword2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:hint="Nhập lại mật khẩu"
+        android:id="@+id/edittextreturnpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:hint="Tên người dùng"
+        android:id="@+id/edittexttennguoidung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:hint="Tuổi"
+        android:id="@+id/edittexttuoi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:hint="Yêu cầu(nếu có)"
+        android:id="@+id/edittextyeucau"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:text="ĐĂNG KÝ"
+            android:id="@+id/buttondangky2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+        <Button
+            android:text="THOÁT"
+            android:id="@+id/buttonthoat2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</LinearLayout>
